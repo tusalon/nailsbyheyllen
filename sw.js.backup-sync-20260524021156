@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Nails by Heyllem
 
-const CACHE_NAME = 'nailsbyheyllen-v29';
+const CACHE_NAME = 'nailsbyheyllen-v25';
 const urlsToCache = [
   '/nailsbyheyllen/',
   '/nailsbyheyllen/index.html',
