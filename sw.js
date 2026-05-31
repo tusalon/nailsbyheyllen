@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Nails by Heyllem
 
-const CACHE_NAME = 'nailsbyheyllen-v29';
+const CACHE_NAME = 'nailsbyheyllen-v47';
 const urlsToCache = [
   '/nailsbyheyllen/',
   '/nailsbyheyllen/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/nailsbyheyllen/icons/icon-152x152.png',
   '/nailsbyheyllen/icons/icon-192x192.png',
   '/nailsbyheyllen/icons/icon-384x384.png',
-  '/nailsbyheyllen/icons/icon-512x512.png'
+  '/nailsbyheyllen/icons/icon-512x512.png',
+  '/nailsbyheyllen/vendor/react.production.min.js',
+  '/nailsbyheyllen/vendor/react-dom.production.min.js',
+  '/nailsbyheyllen/vendor/babel.min.js',
+  '/nailsbyheyllen/vendor/bcrypt.min.js',
+  '/nailsbyheyllen/vendor/tailwind-browser.js',
+  '/nailsbyheyllen/vendor/lucide/lucide.css',
+  '/nailsbyheyllen/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
